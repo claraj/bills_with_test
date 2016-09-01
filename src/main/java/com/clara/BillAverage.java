@@ -7,20 +7,13 @@ public class BillAverage {
 
     public static void main(String[] args) {
 
-        //TODO get data from user
+        //TODO get data from user. Put the user input in a method that returns a double array
 
-        //TODO figure out average
+        //TODO figure out average - put this in a method that takes the double array, does the math, returns a double
 
-        //TODO display average
+        //TODO display average - again, in another method
 
-        //Display a table of all bills - done!
-
-        //Hard-coding some test data, until we've written the rest of the program :)
-
-        String[] billPeriods = { "January" , "February", "March", "April", "May"};
-        double[] billAmounts = { 236, 223, 170, 150, 96};
-
-        displayMonthsBills(billPeriods, billAmounts);
+        //TODO Call displayMonthsBills to display a table of all bills
 
     }
 
